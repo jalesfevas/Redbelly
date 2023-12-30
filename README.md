@@ -1,2 +1,2 @@
 # Redbelly
-Redbelly Network
+Deploying Smart Contract In Redbelly Devnet
