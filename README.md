@@ -13,7 +13,7 @@ ChainID: 161
 Currency Symbol: RBNT
 Block explorer URL: https://monitoring.devnet.redbelly.network/
 ```
-*if the RPC doesn't work, help yourself by asking the new RPC on Redbelly Discord Channel
+*if the RPC doesn't work, help yourself by asking the new RPC on [Redbelly Discord Channel](https://discord.com/invite/redbelly)
 
 Get faucet on Redbelly Discord
 ```bash
