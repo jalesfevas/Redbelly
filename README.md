@@ -2,8 +2,8 @@
 Deploying Smart Contract In Redbelly Devnet using REMIX (for advance user only)
 
 What you need :
--  EVM wallet (ex.metamask) + RBNT (Redbelly faucet token)
--  Metamask connected to Redbelly Devnet Network
+-  EVM wallet (ex.metamask)
+-  Redbelly faucet token
 
 Open your metamask, add new network (Redbelly Devnet) then connect to it :
 ```bash
@@ -16,7 +16,9 @@ Block explorer URL: https://monitoring.devnet.redbelly.network/
 
 Get faucet on Redbelly Discord
 ```bash
-Go to Redbelly Discord, use the bot and paste your wallet in #devnet-faucet
+- Go to Redbelly Discord
+- Go to #devnet-faucet room
+- Use the bot and paste your wallet address
 ```
 
 Go to REMIX
@@ -60,14 +62,14 @@ contract FunctionTypes{
 }
 ```
 
-Go to Compiler tab, compile the smartcontract
+Go to Compiler tab
 ```bash
 - Use compiler version 0.8.18
 - Click Compile redbelly.sol
 - You will see checkmark on the compiler logo
 ```
 
-Deploy & Run Transactions tab
+Go to Deploy & Run Transactions tab
 ```bash
 - Change the Environment to Injected Provider
 - Connect your Metamask (make sure you’re on the Redbelly Devnet network)
@@ -75,8 +77,9 @@ Deploy & Run Transactions tab
 - If you see "gas estimation failed", just continue and click Send Transaction
 ```
 
-Scroll down (just right after "setting" tab) you'll see "Deployed Contract", copy the contract address
+Scroll down (just right after "setting" tab) you'll see "Deployed Contract"
 ```bash
+- Copy the contract
 - Go to Redbelly Devnet Block Explorer (https://explorer.devnet.redbelly.network/overview)
 - Paste your contract address
 - You'll see your deployed contract address on Redbelly Devnet Network
